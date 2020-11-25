@@ -35,8 +35,8 @@ for i in 0..<n * 360 {
         outputMatrix[safe: corrX]?[safe: y2] = 1
     }
 }
-for i in 0..<100 {
-    for j in 0..<100 {
+for i in 0..<maxCoord {
+    for j in 0..<maxCoord {
         if outputMatrix[i][j] == 1 { outputString += "*" }
         else { outputString += " " }
     }
